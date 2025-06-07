@@ -1,0 +1,52 @@
+/* src/styles/MovieReview.css */
+
+.movie-review-page {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.movie-details-review,
+.viewer-comments,
+.showtimes {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.movie-details-review h2,
+.viewer-comments h3,
+.showtimes h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.movie-meta span {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.review-content p {
+  line-height: 1.6;
+}
+
+.viewer-comments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.viewer-comments li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.viewer-comments li span {
+  display: block;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Placeholder styles - cần tùy chỉnh thêm */
